@@ -1,0 +1,373 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Dosis";
+@import "https://fonts.googleapis.com/css?family=Abel";
+
+/*
+
+Author : Azzario Razy
+Email : Azzariorazy17@gmail.com
+
+*/
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+nav {
+  border-bottom: 1px solid #EAEAEB;
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #FFF;
+}
+.menu-inner {
+  margin-right: 30px;
+}
+.menu-inner a {
+  color: #2C3E50;
+  margin-right: 20px;
+  line-height: 70px;
+  clear: right;
+  font-size: 110%;
+}
+.menu-inner a:hover {
+  text-decoration: none;
+}
+label {
+  margin-right: 40px;
+  font-size: 20px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+#toggle {
+  display: none;
+}
+.hire-me {
+  text-align: center;
+  float: left;
+}
+.hire-me h3 {
+  margin-left: 10px;
+  color: #E74C3C;
+}
+.container-one {
+  text-align: center;
+  margin: 70px 0 0 0;
+  width: 100%;
+  background-color: #2C3E50;
+}
+.typewriter {
+  color: #ECF0F1;
+  font-family: 'Abel', sans-serif;
+  font-size: 50px;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+.container-one .charme {
+  width: 500px;
+  margin: 0;
+}
+.container-one .star {
+  width: 10px;
+  position: absolute;
+}
+.star-one {
+  top: 500px;
+  right: 80px;
+}
+.star-two {
+  top: 500px;
+  right: 500px;
+}
+.star-three {
+  top: 300px;
+  right: 100px;
+}
+.star-four {
+  top: 400px;
+  left: 100px;
+}
+.star-five {
+  top: 600px;
+  left: 50px;
+}
+.star-six {
+  top: 100px;
+  left : 100px;
+}
+.star-seven {
+  bottom: 50px;
+  right: 200px;
+}
+.star-eight {
+  top: 100px;
+  right: 100px;
+}
+.star-nine {
+  top: 200px;
+  right: 300px;
+}
+.star-ten {
+  top: 350px;
+  left: 350px;
+}
+.divide {
+  background-color: #E74C3C;
+  height: 20px;
+  width: 100%;
+  margin: 0;
+}
+.container-two {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  background-color: #ECF0F1;
+  font-family: 'Dosis', sans-serif;
+}
+.container-two h1 {
+  margin: 0;
+  padding-top: 20px;
+  color: #E74C3C;
+}
+.row {
+  margin: 0;
+}
+.col-md-8 p {
+  color: #2C3E50;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 150px;
+}
+.exp1 {
+  width: 150px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.box-quote {
+  margin: 0;
+  background-color: #E74C3C;
+  display: inline-block;
+  border-radius: 5px;
+  color: #ECF0F1;
+  margin-top: 15px;
+}
+.container-three {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  background-color: #E74C3C;
+  font-family: 'Dosis', sans-serif;
+}
+.exp2 {
+  padding-top: 60px;
+  width: 350px;
+  max-width: 100%;
+}
+.web-img {
+  width: 300px;
+  max-width: 100%;
+}
+.web-inner {
+  padding-top: 80px;
+}
+.hardware-img {
+  width: 220px;
+  max-width: 100%;
+}
+.hardware-inner {
+  padding-top: 80px;
+}
+.web-inner p {
+  color: #FFF;
+  padding-top: 50px;
+}
+.hardware-inner p {
+  color: #FFF;
+  padding-top: 20px;
+}
+.box-quote-2 {
+  margin: 0;
+  background-color: #ECF0F1;
+  display: inline-block;
+  border-radius: 5px;
+  color: #E74C3C;
+  margin-top: 15px;
+}
+.skills {
+  color: #FFF;
+  text-align: left;
+}
+.container-four {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  background-color: #FFF;
+  font-family: 'Dosis', sans-serif;
+}
+.container-four h1 {
+  padding-top: 30px;
+}
+.container-four img {
+  max-width: 100%;
+  width: 400px;
+  padding-top: 50px;
+}
+.my-works {
+  text-align: right;
+}
+.container-five {
+  margin: 0;
+  width: 100%;
+  background-color: #ECF0F1;
+  font-family: 'Dosis', sans-serif;
+}
+.experience {
+  max-width: 100%;
+  width: 700px;
+  padding-left: -10px;
+}
+.exp-title {
+  color: #E74C3C;
+  padding-top: 10px;
+  text-align: left;
+}
+.box-quote-3 {
+  text-align: center;
+  margin: 0;
+  background-color: #E74C3C;
+  display: inline-block;
+  border-radius: 5px;
+  color: #ECF0F1;
+  margin-top: 40%;
+}
+.box-quote-3 h2 {
+  font-size: 150%;
+}
+.container-six {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  background-color: #E74C3C;
+  font-family: 'Dosis', sans-serif;
+}
+.container-six h1 {
+  margin: 0;
+  text-align: right;
+  color: #FFF;
+}
+#map {
+  height: 400px;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.lets {
+  color: #FFF;
+}
+.social {
+  margin: 0;
+  padding: 20px 0;
+  list-style-type: none;
+}
+.social li {
+  display: inline;
+  margin-right: 20px;
+}
+.social li a {
+  text-decoration: none;
+}
+.social li a i {
+  font-size: 30px;
+  color: #FFF;
+}
+.social li a i:hover {
+  color: #2C3E50;
+}
+.box-quote-4 {
+  text-align: center;
+  margin: 0;
+  background-color: #ECF0F1;
+  display: inline-block;
+  border-radius: 5px;
+  color: #E74C3C;
+}
+footer {
+  font-family: 'Abel', sans-serif;
+  color: #2C3E50;
+  font-size: 130%;
+  padding: 10px;
+}
+footer p {
+  text-align: center;
+}
+.love {
+  color: #E74C3C;
+}
+
+/*=== Media Query Start ===*/
+@media screen and (max-width:768px) {
+  label {
+    display: block;
+    cursor: pointer;
+    font-size: 50px;
+  }
+  .menu-inner {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu-inner a {
+    display: block;
+    color: #ECF0F1;
+    border-bottom: 1px solid #ECF0F1;
+    margin: 0;
+    z-index: 1000;
+    position: relative;
+    background-color: #2C3E50;
+  }
+  #toggle:checked + .menu-inner {
+    display: block;
+  }
+  .charme {
+    max-width: 100%;
+  }
+  .star-one {
+    left: 20px;
+    top: 100px;
+  }
+  .star-two {
+    right: 50px;
+  }
+  .star-three {
+    top: 80px;
+  }
+  .star-four {
+    right: 20px;
+  }
+  .star-five, .star-six, .star-seven, .star-eight, .star-nine, .star-ten {
+    display: none;
+  }
+  .container-three {
+    padding-bottom: 20px;
+  }
+  .box-quote-3 {
+    margin: 30px 0 30px 0;
+  }
+  .box-quote-4 {
+    margin-bottom: 20px;
+  }
+  .col-md-8 p {
+    padding-top: 50px;
+  }
+  .exp1 {
+    padding-top: 10px;
+  }
+}
